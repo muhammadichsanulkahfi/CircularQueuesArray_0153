@@ -106,7 +106,44 @@ public:
             }
 
             FRONT_position = 0;
+
+            while {FRONT_position <= REAR_position}
+            {
+                cout << queue_array[FRONT_position] << "  ";
+                FRONT_position++;
+            }
+            cout << endl;
         }
     }
 
+}
+
+int main()
+{
+    Queues q;
+    char ch;
+
+    while (true)
+    {
+        try
+        {
+            cout << "Menu" << endl;
+            cout << "1. Implement" << endl;
+            cout << "Menu" << endl;
+            cout << "Menu" << endl;
+            cout << "Menu" << endl;
+            cout << "Menu" << endl;
+           
+                       
+
+            
+
+    
+        }
+        catch(const std::exception& e)
+        {
+            std::cerr << e.what() << '\n';
+        }
+        
+    }
 }
